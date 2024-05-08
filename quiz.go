@@ -40,7 +40,7 @@ func main() {
 	var coresAnswer int
 	fmt.Scan(&coresAnswer)
 
-	if answer == "12" {
+	if coresAnswer == 12 {
 		fmt.Println("Correct!")
 	} else {
 		fmt.Println("Incorrect!")
