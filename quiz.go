@@ -4,9 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println("Welcome to the quiz!")
-
-	var name string = "Patrick"
-	name = "hello"
-
-	fmt.Println(name)
+	name := "Patrick"
+	fmt.Printf("Hello %s, let's get started!\n", name)
 }
