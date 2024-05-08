@@ -18,5 +18,12 @@ func main() {
 		fmt.Println("You are old enough to take the quiz!")
 	} else {
 		fmt.Println("You are not old enough to take the quiz!")
+		return
 	}
+
+	fmt.Printf("What is better the RTX 3080 or the RTX 3090? ")
+
+	var answer string
+	fmt.Scan(&answer)
+	fmt.Println("You answered: ", answer)
 }
