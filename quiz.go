@@ -30,7 +30,9 @@ func main() {
 
 	if answer + " " + answer2 == "RTX 3090" {
 		fmt.Println("Correct!")
-	} else {
+	}  else if answer + " " + answer2 == "rtx 3090" {
+		fmt.Println("Correct!")
+	}else {
 		fmt.Println("Incorrect!")
 	}
 }
