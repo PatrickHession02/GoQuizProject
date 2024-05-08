@@ -5,5 +5,6 @@ import "fmt"
 func main() {
 	fmt.Println("Welcome to the quiz!")
 	name := "Patrick"
-	fmt.Printf("Hello %s, let's get started!\n", name)
+	age := 21
+	fmt.Printf("Hello %s, let's get started!\nYou are %v", name, age)
 }
