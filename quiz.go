@@ -50,6 +50,6 @@ func main() {
 		fmt.Println("Incorrect!")
 	}
 	fmt.Printf("You got a score of %v out of %v \n", score, num_Questions)
-	percent := (score / num_Questions) * 100
+	percent := (float64(score) / float64(num_Questions)) * 100
 	fmt.Printf("You got a score of %v%% \n", percent)
 }
