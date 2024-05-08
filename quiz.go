@@ -7,4 +7,6 @@ func main() {
 
 	var name string = "Patrick"
 	name = "hello"
+
+	fmt.Println(name)
 }
