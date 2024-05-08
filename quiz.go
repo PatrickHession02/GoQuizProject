@@ -36,6 +36,13 @@ func main() {
 		fmt.Println("Incorrect!")
 	}
 
-	fmt.Printf("How many cores does the Ryzen 9 3900x have?")
-	var answer3 int
+	fmt.Printf("How many cores does the Ryzen 9 3900x have? ")
+	var coresAnswer int
+	fmt.Scan(&coresAnswer)
+
+	if answer == "12" {
+		fmt.Println("Correct!")
+	} else {
+		fmt.Println("Incorrect!")
+	}
 }
