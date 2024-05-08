@@ -49,5 +49,5 @@ func main() {
 	} else {
 		fmt.Println("Incorrect!")
 	}
-	fmt.Printf("You got a score of %v out of 2 \n", score, num_Questions)
+	fmt.Printf("You got a score of %v out of %v \n", score, num_Questions)
 }
