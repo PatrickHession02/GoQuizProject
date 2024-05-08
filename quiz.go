@@ -20,9 +20,10 @@ func main() {
 		fmt.Println("You are not old enough to take the quiz!")
 		return
 	}
+  score := 0
+  num_Questions := 2
 
 	fmt.Printf("What is better the RTX 3080 or the RTX 3090? ")
-
 	var answer string
 	var answer2 string
 	fmt.Scan(&answer, &answer2)
@@ -30,8 +31,10 @@ func main() {
 
 	if answer + " " + answer2 == "RTX 3090" {
 		fmt.Println("Correct!")
+		score ++
 	}  else if answer + " " + answer2 == "rtx 3090" {
 		fmt.Println("Correct!")
+		score ++
 	}else {
 		fmt.Println("Incorrect!")
 	}
@@ -42,7 +45,9 @@ func main() {
 
 	if coresAnswer == 12 {
 		fmt.Println("Correct!")
+		score ++
 	} else {
 		fmt.Println("Incorrect!")
 	}
+	fmt.Printf("You got a score of %v out of 2 \n", score, num_Questions)
 }
