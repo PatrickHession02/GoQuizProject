@@ -12,5 +12,11 @@ func main() {
 	fmt.Printf("Enter your age ")
 	var age uint
 	fmt.Scan(&age)
-	fmt.Println(age >= 18)
+
+
+	if age >= 18 {
+		fmt.Println("You are old enough to take the quiz!")
+	} else {
+		fmt.Println("You are not old enough to take the quiz!")
+	}
 }
