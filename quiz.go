@@ -30,7 +30,7 @@ func main() {
 	fmt.Printf("You answered: %v %v \n", answer, answer2)
 
 
-	if answer + " " + answer2 == "RTX 3090" ||answer + " " + answer2 == "rtx 3090"{
+	if answer + " " + answer2 == "RTX 3090" || answer + " " + answer2 == "rtx 3090"{
 		fmt.Println("Correct!")
 		score ++
 	}else {
