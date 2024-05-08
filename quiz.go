@@ -28,7 +28,7 @@ func main() {
 	fmt.Scan(&answer, &answer2)
 	fmt.Printf("You answered: %v %v \n", answer, answer2)
 
-	if answer + answer2 == "RTX 3090" {
+	if answer + " " + answer2 == "RTX 3090" {
 		fmt.Println("Correct!")
 	} else {
 		fmt.Println("Incorrect!")
