@@ -12,5 +12,37 @@ func main() {
 	fmt.Printf("Enter your age ")
 	var age uint
 	fmt.Scan(&age)
-	fmt.Println(age >= 18)
+
+
+	if age >= 18 {
+		fmt.Println("You are old enough to take the quiz!")
+	} else {
+		fmt.Println("You are not old enough to take the quiz!")
+		return
+	}
+
+	fmt.Printf("What is better the RTX 3080 or the RTX 3090? ")
+
+	var answer string
+	var answer2 string
+	fmt.Scan(&answer, &answer2)
+	fmt.Printf("You answered: %v %v \n", answer, answer2)
+
+	if answer + " " + answer2 == "RTX 3090" {
+		fmt.Println("Correct!")
+	}  else if answer + " " + answer2 == "rtx 3090" {
+		fmt.Println("Correct!")
+	}else {
+		fmt.Println("Incorrect!")
+	}
+
+	fmt.Printf("How many cores does the Ryzen 9 3900x have? ")
+	var coresAnswer int
+	fmt.Scan(&coresAnswer)
+
+	if coresAnswer == 12 {
+		fmt.Println("Correct!")
+	} else {
+		fmt.Println("Incorrect!")
+	}
 }
