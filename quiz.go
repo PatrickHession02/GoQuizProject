@@ -24,6 +24,7 @@ func main() {
 	fmt.Printf("What is better the RTX 3080 or the RTX 3090? ")
 
 	var answer string
-	fmt.Scan(&answer)
-	fmt.Println("You answered: ", answer)
+	var answer2 string
+	fmt.Scan(&answer, &answer2)
+	fmt.Printf("You answered: %v %v \n", answer, answer2)
 }
